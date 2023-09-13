@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0080E41729A00BDA00B2B7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E41629A00BDA00B2B7B7 /* AppDelegate.swift */; };
+		0080E41B29A00BDA00B2B7B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E41A29A00BDA00B2B7B7 /* ViewController.swift */; };
+		0080E41E29A00BDA00B2B7B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0080E41C29A00BDA00B2B7B7 /* Main.storyboard */; };
+		0080E42029A00BDB00B2B7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0080E41F29A00BDB00B2B7B7 /* Assets.xcassets */; };
+		0080E42329A00BDB00B2B7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0080E42129A00BDB00B2B7B7 /* LaunchScreen.storyboard */; };
+		0080E42B29A0116A00B2B7B7 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E42A29A0116A00B2B7B7 /* CustomView.swift */; };
+		0080E42D29A0229000B2B7B7 /* TarifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E42C29A0228F00B2B7B7 /* TarifViewController.swift */; };
+		0080E43029A025A300B2B7B7 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E42F29A025A300B2B7B7 /* InternetViewController.swift */; };
+		0080E43229A025CA00B2B7B7 /* MinutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E43129A025CA00B2B7B7 /* MinutViewController.swift */; };
+		0080E43429A025EE00B2B7B7 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E43329A025EE00B2B7B7 /* SocialViewController.swift */; };
+		0080E43729A02F8600B2B7B7 /* BeelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E43629A02F8600B2B7B7 /* BeelineCell.swift */; };
+		0080E43929A037DE00B2B7B7 /* ModelBeeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E43829A037DE00B2B7B7 /* ModelBeeline.swift */; };
+		0080E43C29A03A3E00B2B7B7 /* Beeline.json in Resources */ = {isa = PBXBuildFile; fileRef = 0080E43B29A03A3E00B2B7B7 /* Beeline.json */; };
+		0080E43E29A046BE00B2B7B7 /* BeelineInternet.json in Resources */ = {isa = PBXBuildFile; fileRef = 0080E43D29A046BE00B2B7B7 /* BeelineInternet.json */; };
+		0080E44029A0471700B2B7B7 /* Modelinternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E43F29A0471700B2B7B7 /* Modelinternet.swift */; };
+		0080E44229A0478400B2B7B7 /* InternetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E44129A0478400B2B7B7 /* InternetCell.swift */; };
+		0080E44529A04B1300B2B7B7 /* ModelMinut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E44429A04B1300B2B7B7 /* ModelMinut.swift */; };
+		0080E44929A04B5400B2B7B7 /* BeelineMinut.json in Resources */ = {isa = PBXBuildFile; fileRef = 0080E44829A04B5400B2B7B7 /* BeelineMinut.json */; };
+		0080E44B29A04B6400B2B7B7 /* MinutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E44A29A04B6400B2B7B7 /* MinutCell.swift */; };
+		0080E45329A0EF3B00B2B7B7 /* SocialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E45229A0EF3B00B2B7B7 /* SocialCell.swift */; };
+		0080E45529A0EF7B00B2B7B7 /* Social.json in Resources */ = {isa = PBXBuildFile; fileRef = 0080E45429A0EF7B00B2B7B7 /* Social.json */; };
+		0080E45729A0EF9F00B2B7B7 /* ModelSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080E45629A0EF9F00B2B7B7 /* ModelSocial.swift */; };
+		00F4F90629AEA2AE00488534 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4F90529AEA2AE00488534 /* OneViewController.swift */; };
+		EA2359954DD26674FD8E975C /* Pods_BeelineMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2321654EC4853E4727DBFBF /* Pods_BeelineMobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0080E41329A00BDA00B2B7B7 /* BeelineMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeelineMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0080E41629A00BDA00B2B7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0080E41A29A00BDA00B2B7B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0080E41D29A00BDA00B2B7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0080E41F29A00BDB00B2B7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0080E42229A00BDB00B2B7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0080E42429A00BDB00B2B7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0080E42A29A0116A00B2B7B7 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		0080E42C29A0228F00B2B7B7 /* TarifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifViewController.swift; sourceTree = "<group>"; };
+		0080E42F29A025A300B2B7B7 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		0080E43129A025CA00B2B7B7 /* MinutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutViewController.swift; sourceTree = "<group>"; };
+		0080E43329A025EE00B2B7B7 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		0080E43629A02F8600B2B7B7 /* BeelineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeelineCell.swift; sourceTree = "<group>"; };
+		0080E43829A037DE00B2B7B7 /* ModelBeeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBeeline.swift; sourceTree = "<group>"; };
+		0080E43B29A03A3E00B2B7B7 /* Beeline.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Beeline.json; sourceTree = "<group>"; };
+		0080E43D29A046BE00B2B7B7 /* BeelineInternet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BeelineInternet.json; sourceTree = "<group>"; };
+		0080E43F29A0471700B2B7B7 /* Modelinternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelinternet.swift; sourceTree = "<group>"; };
+		0080E44129A0478400B2B7B7 /* InternetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetCell.swift; sourceTree = "<group>"; };
+		0080E44429A04B1300B2B7B7 /* ModelMinut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMinut.swift; sourceTree = "<group>"; };
+		0080E44829A04B5400B2B7B7 /* BeelineMinut.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BeelineMinut.json; sourceTree = "<group>"; };
+		0080E44A29A04B6400B2B7B7 /* MinutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutCell.swift; sourceTree = "<group>"; };
+		0080E45229A0EF3B00B2B7B7 /* SocialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialCell.swift; sourceTree = "<group>"; };
+		0080E45429A0EF7B00B2B7B7 /* Social.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Social.json; sourceTree = "<group>"; };
+		0080E45629A0EF9F00B2B7B7 /* ModelSocial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSocial.swift; sourceTree = "<group>"; };
+		00F4F90529AEA2AE00488534 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		823B12E5EE202D2F5755B94E /* Pods-BeelineMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeelineMobile.debug.xcconfig"; path = "Target Support Files/Pods-BeelineMobile/Pods-BeelineMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		A2321654EC4853E4727DBFBF /* Pods_BeelineMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeelineMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69A48043C0DD781158579C2 /* Pods-BeelineMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeelineMobile.release.xcconfig"; path = "Target Support Files/Pods-BeelineMobile/Pods-BeelineMobile.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0080E41029A00BDA00B2B7B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2359954DD26674FD8E975C /* Pods_BeelineMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0080E40A29A00BDA00B2B7B7 = {
+			isa = PBXGroup;
+			children = (
+				0080E41529A00BDA00B2B7B7 /* BeelineMobile */,
+				0080E41429A00BDA00B2B7B7 /* Products */,
+				48FBF23343A7295F5DD97B15 /* Pods */,
+				15B2E3412A19C3B2E5B411A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0080E41429A00BDA00B2B7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0080E41329A00BDA00B2B7B7 /* BeelineMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0080E41529A00BDA00B2B7B7 /* BeelineMobile */ = {
+			isa = PBXGroup;
+			children = (
+				0080E44D29A04EC500B2B7B7 /* inViewControllers */,
+				0080E44329A0495500B2B7B7 /* Models */,
+				0080E43A29A03A2400B2B7B7 /* JSONs */,
+				0080E43529A02F6800B2B7B7 /* Cells */,
+				0080E42E29A0257100B2B7B7 /* ViewControllers */,
+				0080E41629A00BDA00B2B7B7 /* AppDelegate.swift */,
+				0080E41A29A00BDA00B2B7B7 /* ViewController.swift */,
+				0080E42A29A0116A00B2B7B7 /* CustomView.swift */,
+				0080E41C29A00BDA00B2B7B7 /* Main.storyboard */,
+				0080E41F29A00BDB00B2B7B7 /* Assets.xcassets */,
+				0080E42129A00BDB00B2B7B7 /* LaunchScreen.storyboard */,
+				0080E42429A00BDB00B2B7B7 /* Info.plist */,
+			);
+			path = BeelineMobile;
+			sourceTree = "<group>";
+		};
+		0080E42E29A0257100B2B7B7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0080E42C29A0228F00B2B7B7 /* TarifViewController.swift */,
+				0080E42F29A025A300B2B7B7 /* InternetViewController.swift */,
+				0080E43129A025CA00B2B7B7 /* MinutViewController.swift */,
+				0080E43329A025EE00B2B7B7 /* SocialViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0080E43529A02F6800B2B7B7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0080E43629A02F8600B2B7B7 /* BeelineCell.swift */,
+				0080E44129A0478400B2B7B7 /* InternetCell.swift */,
+				0080E44A29A04B6400B2B7B7 /* MinutCell.swift */,
+				0080E45229A0EF3B00B2B7B7 /* SocialCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0080E43A29A03A2400B2B7B7 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				0080E43B29A03A3E00B2B7B7 /* Beeline.json */,
+				0080E43D29A046BE00B2B7B7 /* BeelineInternet.json */,
+				0080E44829A04B5400B2B7B7 /* BeelineMinut.json */,
+				0080E45429A0EF7B00B2B7B7 /* Social.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		0080E44329A0495500B2B7B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0080E43829A037DE00B2B7B7 /* ModelBeeline.swift */,
+				0080E43F29A0471700B2B7B7 /* Modelinternet.swift */,
+				0080E44429A04B1300B2B7B7 /* ModelMinut.swift */,
+				0080E45629A0EF9F00B2B7B7 /* ModelSocial.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0080E44D29A04EC500B2B7B7 /* inViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00F4F90529AEA2AE00488534 /* OneViewController.swift */,
+			);
+			path = inViewControllers;
+			sourceTree = "<group>";
+		};
+		15B2E3412A19C3B2E5B411A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2321654EC4853E4727DBFBF /* Pods_BeelineMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48FBF23343A7295F5DD97B15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				823B12E5EE202D2F5755B94E /* Pods-BeelineMobile.debug.xcconfig */,
+				B69A48043C0DD781158579C2 /* Pods-BeelineMobile.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0080E41229A00BDA00B2B7B7 /* BeelineMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0080E42729A00BDB00B2B7B7 /* Build configuration list for PBXNativeTarget "BeelineMobile" */;
+			buildPhases = (
+				04C47B5F8BD205FC7887C684 /* [CP] Check Pods Manifest.lock */,
+				0080E40F29A00BDA00B2B7B7 /* Sources */,
+				0080E41029A00BDA00B2B7B7 /* Frameworks */,
+				0080E41129A00BDA00B2B7B7 /* Resources */,
+				80C857AC11E88F272BD185FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeelineMobile;
+			productName = BeelineMobile;
+			productReference = 0080E41329A00BDA00B2B7B7 /* BeelineMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0080E40B29A00BDA00B2B7B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0080E41229A00BDA00B2B7B7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0080E40E29A00BDA00B2B7B7 /* Build configuration list for PBXProject "BeelineMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0080E40A29A00BDA00B2B7B7;
+			productRefGroup = 0080E41429A00BDA00B2B7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0080E41229A00BDA00B2B7B7 /* BeelineMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0080E41129A00BDA00B2B7B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080E44929A04B5400B2B7B7 /* BeelineMinut.json in Resources */,
+				0080E43C29A03A3E00B2B7B7 /* Beeline.json in Resources */,
+				0080E42329A00BDB00B2B7B7 /* LaunchScreen.storyboard in Resources */,
+				0080E42029A00BDB00B2B7B7 /* Assets.xcassets in Resources */,
+				0080E41E29A00BDA00B2B7B7 /* Main.storyboard in Resources */,
+				0080E45529A0EF7B00B2B7B7 /* Social.json in Resources */,
+				0080E43E29A046BE00B2B7B7 /* BeelineInternet.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04C47B5F8BD205FC7887C684 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeelineMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C857AC11E88F272BD185FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeelineMobile/Pods-BeelineMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeelineMobile/Pods-BeelineMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeelineMobile/Pods-BeelineMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0080E40F29A00BDA00B2B7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080E43729A02F8600B2B7B7 /* BeelineCell.swift in Sources */,
+				0080E44529A04B1300B2B7B7 /* ModelMinut.swift in Sources */,
+				0080E44229A0478400B2B7B7 /* InternetCell.swift in Sources */,
+				0080E42B29A0116A00B2B7B7 /* CustomView.swift in Sources */,
+				0080E43929A037DE00B2B7B7 /* ModelBeeline.swift in Sources */,
+				0080E45329A0EF3B00B2B7B7 /* SocialCell.swift in Sources */,
+				0080E42D29A0229000B2B7B7 /* TarifViewController.swift in Sources */,
+				0080E43429A025EE00B2B7B7 /* SocialViewController.swift in Sources */,
+				0080E41B29A00BDA00B2B7B7 /* ViewController.swift in Sources */,
+				00F4F90629AEA2AE00488534 /* OneViewController.swift in Sources */,
+				0080E41729A00BDA00B2B7B7 /* AppDelegate.swift in Sources */,
+				0080E43229A025CA00B2B7B7 /* MinutViewController.swift in Sources */,
+				0080E44029A0471700B2B7B7 /* Modelinternet.swift in Sources */,
+				0080E44B29A04B6400B2B7B7 /* MinutCell.swift in Sources */,
+				0080E45729A0EF9F00B2B7B7 /* ModelSocial.swift in Sources */,
+				0080E43029A025A300B2B7B7 /* InternetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0080E41C29A00BDA00B2B7B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0080E41D29A00BDA00B2B7B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0080E42129A00BDB00B2B7B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0080E42229A00BDB00B2B7B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0080E42529A00BDB00B2B7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0080E42629A00BDB00B2B7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0080E42829A00BDB00B2B7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823B12E5EE202D2F5755B94E /* Pods-BeelineMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMPZ268P2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeelineMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirjalol.BeelineMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0080E42929A00BDB00B2B7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69A48043C0DD781158579C2 /* Pods-BeelineMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMPZ268P2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeelineMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mirjalol.BeelineMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0080E40E29A00BDA00B2B7B7 /* Build configuration list for PBXProject "BeelineMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0080E42529A00BDB00B2B7B7 /* Debug */,
+				0080E42629A00BDB00B2B7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0080E42729A00BDB00B2B7B7 /* Build configuration list for PBXNativeTarget "BeelineMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0080E42829A00BDB00B2B7B7 /* Debug */,
+				0080E42929A00BDB00B2B7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0080E40B29A00BDA00B2B7B7 /* Project object */;
+}
